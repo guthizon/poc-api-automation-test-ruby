@@ -1,0 +1,8 @@
+---
+
+default: -p pretty -p html -p teste
+features: --require features './features/specs/'
+pretty: --format pretty
+html: --format html --out=report/report.html
+teste: --tags @test
+
